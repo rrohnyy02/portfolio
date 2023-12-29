@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .header {
+            font-size: 48px;
+            line-height: 1.6em;
+        }
+
+        .navigation a {
+            color: blueviolet;
+            font-size: 20px; /* Adjusted for better responsiveness */
+            margin: 0 10px; /* Adjusted spacing */
+        }
+
+        .content {
+            width: 50%;
+            margin: 4rem auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+            text-justify: inter-word; 
+        }
+
+        .profile-picture { 
+            width: 100%; 
+            height: auto; 
+            margin-top: 20px; 
+        }
+
+        @media (min-width: 768px) {
+            .content {
+                width: 50%;
+            }
+
+            .navigation a {
+                font-size: 35px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid sticky-top bg-white">
+        <div class="row">
+            <div class="col-12">
+                <header class="header py-3">ROHAN KHANDELWAL</header>
+            </div>
+        </div>
+        <nav class="row navigation">
+            <div class="col-12">
+                <a href="home.html">Home</a>
+                <a href="Internships.html">Internships</a>
+                <a href="Projects.html">Projects</a>
+                <a href='Contacts.html'> Contacts</a>
+                <a href="CV.html">CV</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container content">
+        <!-- <div class="row">
+            <div class="col-12 content"> -->
+                <div>
+                    <h2 style="color: red;">Bloglite</h2>
+                    
+                    <h4>Personal blog creating website <strong> (Best Project award) </strong></h4>
+
+                    
+
+                    <p>• Used HTML, CSS, VueJS to create the front-end for this single page web application.</p>
+                    <p>• Used Flask web framework for designing the backend.</p>
+                    <p>• Used SQLITE3 as the backend database.</p>
+                    <p>• Made use of various utilities like Celery, Redis to make the application faster and easily scalable for multiple users.</p>
+                    <p>• Implemented cronjobs to send the user monthly reports in their email.</p>
+                </div>
+                <br>
+                <div>
+                    <h2 style="color: red;">Students Enrolment Status Prediction</h2>
+                    <h4>Kaggle (Academic Project)</h4>
+                
+                    <p>• Analysed the data given by students at the time of their admission about their past performance history and their performance in first 2 semesters.</p>
+                    <p>• Trained various machine learning models and predicted their respective classes out of dropout, enrolled, graduated with an accuracy of 76%.</p>
+                    <p>• Ended up getting 29th position out of 209 participants.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

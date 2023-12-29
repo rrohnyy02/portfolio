@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .header {
+            font-size: 48px;
+            line-height: 1.6em;
+        }
+
+        .navigation a {
+            color: blueviolet;
+            font-size: 20px; /* Adjusted for better responsiveness */
+            margin: 0 10px; /* Adjusted spacing */
+        }
+
+        .content {
+            width: 50%;
+            margin: 4rem auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+            text-justify: inter-word; 
+        }
+
+        .profile-picture { 
+            width: 100%; 
+            height: auto; 
+            margin-top: 20px; 
+        }
+
+        @media (min-width: 768px) {
+            .content {
+                width: 50%;
+
+            }
+
+            .navigation a {
+                font-size: 35px;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid sticky-top bg-white">
+        <div class="row">
+            <div class="col-12">
+                <header class="header py-3">ROHAN KHANDELWAL</header>
+            </div>
+        </div>
+        <nav class="row navigation">
+            <div class="col-12 navigation">
+                <a href="home.html">Home</a>
+                <a href="Internships.html">Internships</a>
+                <a href="Projects.html">Projects</a>
+                <a href='Contacts.html'> Contacts</a>
+                <a href="CV.html">CV</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container content">
+        <p>I am a Data Science student at the Indian Institute 
+            of Technology Madras, with a keen interest in Machine Learning, 
+            Deep Learning, NLP, Web Development, and Data Analytics. 
+            My proficiency in relevant technologies and frameworks has 
+            been honed through rigorous academic training and practical 
+            projects. </p>
+        <p> I am seeking opportunities to apply my skills in a dynamic 
+            environment, contributing to innovative solutions in the field 
+            of Data Science. For a detailed view of my educational background 
+            and technical expertise, please refer to my attached CV.</p>
+        <img src="Screenshot 2023-12-28 at 10.19.34 AM.png" alt="Profile Picture" class="profile-picture">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
